@@ -12,6 +12,8 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        let fantastikview = FantasticView(frame: self.view.bounds)
+        self.view.addSubview(fantastikview)
         // Do any additional setup after loading the view, typically from a nib.
     }
 
